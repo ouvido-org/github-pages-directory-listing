@@ -14,7 +14,7 @@ jobs:
           ref: dummy-data
 
       - name: Generate Directory Listings
-        uses: ouvido-org/ouvido-org.github.io@main
+        uses: ouvido-org/github-pages-directory-listing@main
         with:
           FOLDER: data
 
